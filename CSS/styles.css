@@ -13,19 +13,30 @@ h1 {
 	text-align: center;
 }
 .bandlinks {
-	margin-top: 210px;
+	/*margin-top: 210px;*/
 }
 a {
 	padding-left: 50px;
 	padding-right: 50px;
 }
 
+.foxxeslogo {
+	background: url("../img/foxxesLogoBlack2.png")no-repeat;
+	background-size: 800px;
+	background-position: center;
+	display: block;
+	height: 748px;
+	/*width: 100%;*/
+	/*z-index: 1;*/
+}
+
 video {
 	position: absolute;
 	top: 0;
 	left: 0;
-	right: 0;
+	right: 0;`
 	bottom: 0;
 	width: 1329px;
 	height: auto;
+	z-index: 0;
 }
