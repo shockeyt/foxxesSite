@@ -2,10 +2,30 @@ h1 {
 	color: red;
 }
 .container-fluid {
-	background: url("../img/FoxxesMountain.png")no-repeat;
-	background-size: 1221px;
+	background: url("../img/FoxxesMountain2.png")no-repeat;
+	background-size: 1329px;
 	background-position: center;
 	display: block;
-	height: 687px;
+	height: 748px;
 	overflow: scroll;
+}
+.row {
+	text-align: center;
+}
+.bandlinks {
+	margin-top: 210px;
+}
+a {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 1329px;
+	height: auto;
 }
