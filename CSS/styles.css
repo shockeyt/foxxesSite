@@ -1,0 +1,11 @@
+h1 {
+	color: red;
+}
+.container-fluid {
+	background: url("../img/FoxxesMountain.png")no-repeat;
+	background-size: 1221px;
+	background-position: center;
+	display: block;
+	height: 687px;
+	overflow: scroll;
+}
