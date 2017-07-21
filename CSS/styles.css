@@ -2,9 +2,9 @@ h1 {
 	color: red;
 }
 .container-fluid {
-	background: url("../img/FoxxesMountain2.png")no-repeat;
+	/*background: url("../img/FoxxesMountain2.png")no-repeat;
 	background-size: 1329px;
-	background-position: center;
+	background-position: center;*/
 	display: block;
 	height: 748px;
 	overflow: scroll;
