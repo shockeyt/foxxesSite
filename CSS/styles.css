@@ -40,6 +40,9 @@ p {
 h3 {
 	/*padding-top: 10px;*/
 	color: white;
+	border-top: 2px solid black;
+	display: block;
+	padding-top: 10px;
 }
 
 h2.venue {
@@ -98,7 +101,7 @@ h2.venue {
 }*/
 
 .showlist {
-	border: 2px solid black;
+	border: 1px solid black;
 	margin: 0 auto;
 	padding: 20px;
 	width: 300px;
@@ -251,6 +254,12 @@ video {
 	background-color: white;
 }
 
+#showInfo {
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	font-weight: 700;
+}
+
 .spotify, .shows {
 	padding-top: 20px;
 }
@@ -259,7 +268,6 @@ video {
 	/*overflow: scroll;*/
 }
 span {
-	border-bottom: 2px solid black;
-	display: block;
+	
 }
 
