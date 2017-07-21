@@ -32,13 +32,18 @@ a:hover {
 	
 }
 
-h3 {
-	padding-top: 10px;
+p {
+	font-family: 'Amatic SC', cursive;
 	color: white;
 }
 
-h2 {
-	font-style: 
+h3 {
+	/*padding-top: 10px;*/
+	color: white;
+}
+
+h2.venue {
+	margin: -0.57em 0;
 }
 
 .contactlink, .showlink {
@@ -109,11 +114,93 @@ h2 {
 	display: block;
 	height: 748px;
 	
-	-webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
-	   -moz-animation: fadein 5s; /* Firefox < 16 */
-	    -ms-animation: fadein 5s; /* Internet Explorer */
-	     -o-animation: fadein 5s; /* Opera < 12.1 */
-	        animation: fadein 5s;
+	-webkit-animation: fadein noBlur 5s; /* Safari, Chrome and Opera > 12.1 */
+	   -moz-animation: fadein noBlur 5s; /* Firefox < 16 */
+	    -ms-animation: fadein noBlur 5s; /* Internet Explorer */
+	     -o-animation: fadein noBlur 5s; /* Opera < 12.1 */
+	        animation: fadein noBlur 5s;
+}
+.foxxeslogo:hover {
+	-webkit-animation: blurLogo 5s; /* Safari, Chrome and Opera > 12.1 */
+	   -moz-animation: blurLogo 5s; /* Firefox < 16 */
+	    -ms-animation: blurLogo 5s; /* Internet Explorer */
+	     -o-animation: blurLogo 5s; /* Opera < 12.1 */
+	        animation: blurLogo 5s;
+}
+
+@keyframes noBlur {
+    from { filter: blur(5px); }
+    to   { filter: blur(0px); }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes noBlur {
+    from { filter: blur(5px); }
+    to   { filter: blur(0px); }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes noBlur {
+    from { filter: blur(5px); }
+    to   { filter: blur(0px); }
+}
+
+/* Internet Explorer */
+@-ms-keyframes noBlur {
+    from { filter: blur(5px); }
+    to   { filter: blur(0px); }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes noBlur {
+    from { filter: blur(5px); }
+    to   { filter: blur(0px); }
+}
+
+/*BLUR LOGO**********************/
+@keyframes blurLogo {
+    from { filter: blur(0px); }
+    to   { filter: blur(5px); }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes blurLogo {
+    from { filter: blur(0px); }
+    to   { filter: blur(5px); }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes blurLogo {
+    from { filter: blur(0px); }
+    to   { filter: blur(5px); }
+}
+
+/* Internet Explorer */
+@-ms-keyframes blurLogo {
+    from { filter: blur(0px); }
+    to   { filter: blur(5px); }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes blurLogo {
+    from { filter: blur(0px); }
+    to   { filter: blur(5px); }
+}
+
+.foxxeslogo2 {
+	background: url("../img/foxxesLogoWhite.png")no-repeat;
+	background-size: 800px;
+	background-position: center;
+	display: block;
+	height: 748px;
+	opacity: 0;
+}
+
+.foxxeslogo2:hover {
+	-webkit-transition: opacity 1s ease-in-out;
+	  -moz-transition: opacity 1s ease-in-out;
+	  -o-transition: opacity 1s ease-in-out;
+	  transition: opacity 1s ease-in-out;
 }
 
 	@keyframes fadein {
