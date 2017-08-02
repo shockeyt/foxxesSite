@@ -269,15 +269,35 @@ h2.venue {
 
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
-    width: 100%;
-    height: auto;
+    height: 300%;
+    top: -100%;
   }
 }
 
 @media (max-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
-    width: auto;
-    height: 100%;
+    width: 300%;
+    left: -100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/FoxxesMountain2.png') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+
+  .foxxeslogo {
+  	display: none;
+  }
+  a {
+  	color: white;
+  }
+  .playerAndShows {
+  	margin-top: 250px;
   }
 }
 
