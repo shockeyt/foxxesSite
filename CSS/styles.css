@@ -293,12 +293,51 @@ h2.venue {
   .foxxeslogo {
   	display: none;
   }
+  
   a {
   	color: white;
   }
+  
   .playerAndShows {
   	margin-top: 250px;
   }
+
+  .facebook {
+  	background: url("../img/icon-facebook-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .bandcamp {
+  	background: url("../img/icon-bandcamp-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .soundcloud {
+  	background: url("../img/icon-soundcloud-white.png")no-repeat;
+	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;  
+  }
+  .twitter {
+  	background: url("../img/icon-twitter-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .youtube {
+  	background: url("../img/icon-youtube-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+
 }
 
 .playerAndShows {
