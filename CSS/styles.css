@@ -236,18 +236,7 @@ h2.venue {
 	}
 
 
-
-
-/*video {
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;`
-	bottom: 0;
-	width: 1329px;
-	height: auto;
-	z-index: 0;
-}*/
+/*********VIDEO***********/
 
 .fullscreen-bg {
     position: fixed;
@@ -267,6 +256,27 @@ h2.venue {
     height: 100%;
 }
 
+.playerAndShows {
+	margin-bottom: 30px;
+	/*background-color: white;*/
+}
+
+#showInfo {
+	font-family: 'Amatic SC', cursive;
+	font-size: 50px;
+	font-weight: 700;
+}
+
+.spotify, .shows {
+	padding-top: 20px;
+}
+
+.shows {
+	/*overflow: scroll;*/
+}
+
+
+/*********MEDIA QUERIES*****************/
 @media (min-aspect-ratio: 16/9) {
   .fullscreen-bg__video {
     height: 300%;
@@ -281,7 +291,10 @@ h2.venue {
   }
 }
 
-@media (max-width: 767px) {
+/********iPhone 5********/
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px) {
   .fullscreen-bg {
     background: url('../img/FoxxesMountain2.png') center center / cover no-repeat;
   }
@@ -340,25 +353,308 @@ h2.venue {
 
 }
 
-.playerAndShows {
-	margin-bottom: 30px;
-	/*background-color: white;*/
-}
-
-#showInfo {
-	font-family: 'Amatic SC', cursive;
-	font-size: 50px;
-	font-weight: 700;
-}
-
-.spotify, .shows {
-	padding-top: 20px;
-}
-
-.shows {
-	/*overflow: scroll;*/
-}
-span {
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (orientation: landscape) {
 	
+	.contactlink, .showlink {
+		font-family: 'Amatic SC', cursive;
+		font-size: 80px;
+		font-weight: 700;
+	}	
+
+	.bandlinks {
+		margin-top: 100px;
+	}
+
+	.playerAndShows {
+  	margin-top: 0;
+  }
+
 }
+
+
+/********iPhone 6********/
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 767px) {
+  .fullscreen-bg {
+    background: url('../img/FoxxesMountain2.png') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+
+  .foxxeslogo {
+  	display: none;
+  }
+  
+  a {
+  	color: white;
+  }
+  
+  .playerAndShows {
+  	margin-top: 250px;
+  }
+
+  .facebook {
+  	background: url("../img/icon-facebook-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .bandcamp {
+  	background: url("../img/icon-bandcamp-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .soundcloud {
+  	background: url("../img/icon-soundcloud-white.png")no-repeat;
+	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;  
+  }
+  .twitter {
+  	background: url("../img/icon-twitter-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .youtube {
+  	background: url("../img/icon-youtube-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+
+}
+
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 767px)
+and (orientation: landscape) {
+	
+	.contactlink, .showlink {
+		font-family: 'Amatic SC', cursive;
+		font-size: 80px;
+		font-weight: 700;
+	}	
+
+	.bandlinks {
+		margin-top: 100px;
+	}
+
+	.playerAndShows {
+  	margin-top: 0;
+  }
+
+}
+
+/*********GALAXY S5**********/
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 640px) {
+  .fullscreen-bg {
+    background: url('../img/FoxxesMountain2.png') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+
+  .foxxeslogo {
+  	display: none;
+  }
+  
+  a {
+  	color: white;
+  }
+  
+  .playerAndShows {
+  	margin-top: 250px;
+  }
+
+  .facebook {
+  	background: url("../img/icon-facebook-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .bandcamp {
+  	background: url("../img/icon-bandcamp-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .soundcloud {
+  	background: url("../img/icon-soundcloud-white.png")no-repeat;
+	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;  
+  }
+  .twitter {
+  	background: url("../img/icon-twitter-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .youtube {
+  	background: url("../img/icon-youtube-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+
+}
+
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 640px)
+and (orientation: landscape) {
+	
+	.contactlink, .showlink {
+		font-family: 'Amatic SC', cursive;
+		font-size: 80px;
+		font-weight: 700;
+	}	
+
+	.bandlinks {
+		margin-top: 100px;
+	}
+
+	.playerAndShows {
+  	margin-top: 0;
+  }
+
+}
+
+/********iPAD*********/
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .fullscreen-bg {
+    background: url('../img/FoxxesMountain2.png') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+
+  .foxxeslogo {
+  	display: none;
+  }
+  
+  a {
+  	color: white;
+  }
+  
+  .playerAndShows {
+  	margin-top: 250px;
+  }
+
+/*	.contactlink, .showlink {
+		font-family: 'Amatic SC', cursive;
+		font-size: 80px;
+		font-weight: 700;
+	}*/	
+
+	.container-fluid {
+		height: 1000px;
+	}
+	
+	.contactIpad {
+		margin-top: 180px;
+	}
+
+	.bandlinks {
+		margin-top: 100px;
+		margin-left: 160px;
+	}
+
+  .facebook {
+  	background: url("../img/icon-facebook-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .bandcamp {
+  	background: url("../img/icon-bandcamp-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .soundcloud {
+  	background: url("../img/icon-soundcloud-white.png")no-repeat;
+	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;  
+  }
+  .twitter {
+  	background: url("../img/icon-twitter-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+  .youtube {
+  	background: url("../img/icon-youtube-white.png")no-repeat;
+  	background-size: 50px;
+	padding-left: 30px;
+	padding-right: 20px;
+	font-size: 50px;
+  }
+
+}
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+	
+	.contactlink, .showlink {
+		font-family: 'Amatic SC', cursive;
+		font-size: 80px;
+		font-weight: 700;
+	}	
+
+	.bandlinks {
+		margin-top: 100px;
+	}
+
+	.playerAndShows {
+  	margin-top: 250px;
+  }
+
+  .container-fluid {
+  	height: 1000px;
+  }
+  
+  .contactIpad {
+  	margin-top: 0;
+  }
+
+  .bandlinks {
+  	margin-top: 100px;
+  	margin-left: 0;
+  }
+
+}
+
 
