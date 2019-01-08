@@ -239,9 +239,13 @@ h3 {
 }
 
 h2.venue {
+	color: black;
 	margin: 0;
 }
 
+span{
+	color: black;
+}
 
 .playerAndShows {
 	margin-bottom: 30px;
