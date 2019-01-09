@@ -1,10 +1,10 @@
 /************GLOBAL***********/
-.container-fluid {
+.container {
 	/*background: url("../img/FoxxesMountain2.png")no-repeat;
 	background-size: 1329px;
 	background-position: center;*/
 	display: block;
-	height: 748px;
+	height: 100%;
 	overflow: scroll;
 }
 
@@ -227,12 +227,12 @@ a:hover {
 
 p {
 	font-family: 'Amatic SC', cursive;
-	color: white;
+	color: #616066;
 }
 
 h3 {
 	/*padding-top: 10px;*/
-	color: white;
+	color: #616066;
 	border-top: 2px solid black;
 	display: block;
 	padding-top: 10px;
@@ -241,6 +241,10 @@ h3 {
 h2.venue {
 	color: black;
 	margin: 0;
+}
+
+h4{
+	font-size: 12px;
 }
 
 span{
@@ -262,18 +266,24 @@ span{
 	padding-top: 20px;
 }
 
+iframe{
+	box-shadow: 0px 10px 10px rgba(0,0,0,.4);
+}
+
 .shows {
 	/*overflow: scroll;*/
 }
 
 .showlist {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	margin: 0 auto;
 	padding: 20px;
 	width: 300px;
 	height: 380px;
-	background-color: cadetblue;
+	/*background-color: cadetblue;*/
+	background-color: rgb(223,228,238);
 	overflow: scroll;
+	box-shadow: 0px 10px 10px rgba(0,0,0,.4);
 }
 
 /*********MEDIA QUERIES*****************/
