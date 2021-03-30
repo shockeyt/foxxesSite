@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<!-- Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
 	<!-- Bootstrap -->
 	<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css">
@@ -28,7 +30,7 @@
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 	<link rel="manifest" href="img/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#ffffff">
-	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+	<meta name="msapplication-TileImage" content="img/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	<!-- end favicon -->
 	<script type="application/ld+json">
@@ -42,7 +44,8 @@
 				“https://www.facebook.com/foxxestheband",    
 				"https://foxxesband.bandcamp.com",    
 				"https://soundcloud.com/foxxesband",    
-				“https://twitter.com/FoxxesBand",    
+				“https://twitter.com/FoxxesBand",
+				"https://www.instagram.com/foxxesband",    
 				"https://www.youtube.com/channel/UCgPYVFicfTSWoKIYcxpmASQ"  
 			]
 		}
@@ -56,19 +59,33 @@
 	</div> <!-- fullscreen bg -->
 	<div class="container">
 		<div class="row mt-2 mt-lg-5">
-			<div class="col-md-4 col-lg-4 bandlinks2 contactIpad">
-				<a class="contactlink" href="mailto:Foxxestheband@gmail.com?subject=What does the Foxx say?" target="_self" data-content="Foxxestheband@gmail.com" data-type="mail">CONTACT</a>
+			<div class="col-12 main-links">
+				<a class="contactlink" href="mailto:Foxxestheband@gmail.com?subject=What does the Foxx say?" target="_self" data-content="Foxxestheband@gmail.com" data-type="mail">Contact</a>
+				<a href="pages/videos.html" class="contactlink">Videos</a>
+				<a href="pages/photos.html" class="contactlink">Photos</a>
+				<a class="contactlink" href="#showInfo">Shows</a>
+				<!-- <a href="pages/press.html" class="contactlink">Press</a>
+				<a href="pages/music.html" class="contactlink">Music</a> -->
+			</div>
+			<div class="col-lg-4 bandlinks2 contactIpad">
+				<!-- <a class="contactlink" href="mailto:Foxxestheband@gmail.com?subject=What does the Foxx say?" target="_self" data-content="Foxxestheband@gmail.com" data-type="mail">CONTACT</a> -->
 			</div>
 			<!-- BAND LINKS -->
-			<div class="col-md-4 col-lg-4 bandlinks">
+			<div class="col-lg-4 bandlinks">
 				<a class="facebook" target="_blank" href="https://www.facebook.com/foxxestheband"></a>
 				<a class="bandcamp" target="_blank" href="https://foxxesband.bandcamp.com/"></a>
 				<a class="soundcloud" target="_blank" href="https://soundcloud.com/foxxesband/"></a>
 				<a class="twitter" target="_blank" href="https://twitter.com/FoxxesBand"></a>
+				<a class="instagram" target="_blank" href="https://www.instagram.com/foxxesband/"></a>
 				<a class="youtube" target="_blank" href="https://www.youtube.com/channel/UCgPYVFicfTSWoKIYcxpmASQ"></a>
 			</div>
-			<div class="col-md-4 col-lg-4 bandlinks2 showIpad">
-				<a class="showlink" href="#showInfo">SHOWS</a>
+			<div class="col-12 text-center">
+				<a href="https://wearefoxxes.com" class="home-logolink">
+					<img src="img/foxxesLogoBlackCropped.png" alt="Foxxes logo">
+				</a>
+			</div>
+			<div class="col-lg-4 bandlinks2 showIpad">
+				<!-- <a class="showlink" href="#showInfo">SHOWS</a> -->
 			</div>
 		</div>
 		<!-- FOXXES LOGO -->
@@ -153,5 +170,10 @@
 			</div>
 		</div>
 	</div> <!-- container fluid  -->
+
+	<!-- JavaScript -->
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/main.js"></script>
+
 </body>
 </html>
